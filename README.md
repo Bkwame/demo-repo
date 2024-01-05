@@ -29,3 +29,6 @@ git branching
 to check the branches available for a repo; use git branch
 to create a new branch; use git checkout -b <branch-name>
 to switch between one branch to another; use git checkout <branch-name>
+
+to merge the two branches locally; use git merge
+to check the changes made to each branch within a repo; use git diff <name-of-branch>
