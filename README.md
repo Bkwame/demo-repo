@@ -20,3 +20,7 @@ nb: before that, we need to generate keys to allow transaction of files from our
 my keys are: id_rsa (private key) and id_rsa.pub (public key). the latter will be uploaded onto github and the earlier will serve as a key to upload files into the repo in my github account.
 
 git push origin master
+to add a local repo to github; use git remote add origin git@<repo-link.git>
+check tracked repositories using; git remote -v
+add a branch for file(s) upload; using git branch -M main
+upload file(s) using git push -u origin main
