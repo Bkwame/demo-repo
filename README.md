@@ -24,3 +24,8 @@ to add a local repo to github; use git remote add origin git@<repo-link.git>
 check tracked repositories using; git remote -v
 add a branch for file(s) upload; using git branch -M main
 upload file(s) using git push -u origin main
+
+git branching
+to check the branches available for a repo; use git branch
+to create a new branch; use git checkout -b <branch-name>
+to switch between one branch to another; use git checkout <branch-name>
